@@ -1,0 +1,35 @@
+/* Write your CSS code here */
+*{
+    font-family: "roboto";
+}
+.main-continer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.title-text{
+    color: #000000;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+}
+.Avatar-Author-container{
+    display: flex;
+}
+.Avatar-image{
+    height: 50px;
+    border-radius: 45px;
+}
+.Author-Text{
+    color: #000000;
+    font-size: 14px;
+}
+.Topic-Image{
+    height: 100px;
+    width: 450px;
+}
+.Content{
+    font-size: 16px;
+    color: #8e8e8e;
+}
