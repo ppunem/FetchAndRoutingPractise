@@ -17,7 +17,7 @@ class BlogItemDetails extends Component{
         const {id}=params
 
         const response=await fetch(`https://apis.ccbp.in/blogs/${id}`)
-        const data=response.json()
+        const data=await response.json()
         const updatedData={
             title: data.title,
             imageUrl: data.image_url,
